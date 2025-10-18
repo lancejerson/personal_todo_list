@@ -1,7 +1,12 @@
-function NewTodo() {
+
+interface Props{
+    title?: string;
+}
+
+function NewTodo({ title }: Props) {
     return (
         <div className="w-full h-full">
-            <h1 className="text-4xl text-black">New Todo Page</h1>
+            <div className="flex items-center justify-center w-fu"></div>
         </div>
     );
 }
