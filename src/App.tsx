@@ -10,7 +10,7 @@ function App() {
         <div className="flex h-full w-[20vw] justify-center">
             <NavBar />
         </div>
-        <div className="w-[80vw] h-full justify-center bg-gray-100 px-[15px] py-[30px]">
+        <div className="w-[80vw] h-full justify-center bg-gray-100 px-[30px] py-[30px]">
             <Routes>
                 <Route path="/newtodo" element={<NewTodo/>}/>
                 <Route path="/" element={<Home/>}/>

@@ -5,10 +5,12 @@ import { Link } from "react-router-dom";
 
 function NewList( props: { isActive: boolean; setIsActive: (value: boolean) => void; } ) {
     const { isActive, setIsActive } = props;
+
     const [chosenColor, setChosenColor] = useState<string>('#ffffff');
     const closeModal = () => {
         setIsActive(!isActive);
     }
+
     const handleColor = (color:string) => {
         setChosenColor(color)
     }

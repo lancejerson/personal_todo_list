@@ -17,4 +17,5 @@ function ColorButton({ bg, onColorClick }: Props) {
     );
 }
 
+
 export default ColorButton;

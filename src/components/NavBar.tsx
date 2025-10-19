@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function NavBar() {
     return (
         <nav className="flex h-ful w-full flex-col gap-15 py-[30px] bg-white">
-            <div className="w-full flex justify-between h-[5%] items-center px-[15px]">
+            <div className="w-full flex justify-between h-[5%] items-center px-[30px]">
                 <h1 className="text-[3rem] text-black font-semibold">TO-DO</h1>
             </div>
             <div className="w-full h-[20%] flex flex-col gap-2 p-0 m-0">
