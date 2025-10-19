@@ -32,7 +32,7 @@ function NewList( props: { isActive: boolean; setIsActive: (value: boolean) => v
                 </div>
                 <div className="w-full h-[20%] flex items-center justify-center flex-col gap-3">
                     <div
-                        className="h-[50%] aspect-square rounded-full border border-gray-300"
+                        className="h-[50%] aspect-square rounded-full"
                         style={{backgroundColor: chosenColor}}
                     >
                         {/*Profile Color*/}

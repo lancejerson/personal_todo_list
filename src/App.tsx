@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.tsx'
 import Home from './pages/Home.tsx'
 import { Routes, Route } from 'react-router-dom'
 import NewTodo from './pages/NewTodo.tsx'
+import ItemList from "./pages/ItemList.tsx";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Routes>
                 <Route path="/newtodo" element={<NewTodo/>}/>
                 <Route path="/" element={<Home/>}/>
+                <Route path='/itemlist' element={<ItemList/>}/>
             </Routes>
         </div>
     </div>
